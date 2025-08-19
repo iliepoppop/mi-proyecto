@@ -1,0 +1,18 @@
+// Centrado horizontal y vertical
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Texto truncado con puntos suspensivos
+@mixin ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+// Transición suave
+@mixin transition($properties: all, $duration: 0.3s, $timing: ease-in-out) {
+  transition: $properties $duration $timing;
+}

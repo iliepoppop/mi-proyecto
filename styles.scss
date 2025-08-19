@@ -1,0 +1,65 @@
+// Importar variables y mixins
+@import '../scss/variables';
+@import '../scss/mixins';
+
+// Reset básico
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Body
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  color: $color-text;
+  background-color: $color-bg;
+}
+
+// Header
+.header {
+  background-color: $color-primary;
+  color: white;
+  padding: $spacing-md;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    font-weight: bold;
+  }
+
+  &__toggle {
+    display: none;
+  }
+}
+
+// Nav
+.nav {
+  &__list {
+    display: flex;
+    list-style: none;
+    gap: $spacing-md;
+  }
+
+  &__item a {
+    color: white;
+    text-decoration: none;
+    @include transition();
+    &:hover {
+      color: $color-secondary;
+    }
+  }
+}
+
+// Footer
+.footer {
+  background-color: $color-primary;
+  color: white;
+  text-align: center;
+  padding: $spacing-md;
+}
