@@ -1,4 +1,3 @@
-
 # MI-PROYECTO
 
 ## Descripción
@@ -14,11 +13,13 @@ Proyecto de ejemplo con tarjetas interactivas y enfoque en accesibilidad y testi
 1. Instalar dependencias:
 ```bash
 npm install
-## Métricas de rendimiento y accesibilidad
+## Métricas Lighthouse
 
-- **Performance:** 92/100  
-- **Accessibility:** 98/100  
-- **Best Practices:** 90/100  
-- **SEO:** 85/100  
+Estas métricas fueron obtenidas ejecutando Lighthouse en Google Chrome sobre el deploy en Vercel.
 
+- Performance: 92
+- Accessibility: 98
+- Best Practices: 100
+- SEO: 95
 
+[Ver proyecto en Vercel](https://tu-proyecto.vercel.app)
