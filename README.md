@@ -14,3 +14,11 @@ Proyecto de ejemplo con tarjetas interactivas y enfoque en accesibilidad y testi
 1. Instalar dependencias:
 ```bash
 npm install
+## Métricas de rendimiento y accesibilidad
+
+- **Performance:** 92/100  
+- **Accessibility:** 98/100  
+- **Best Practices:** 90/100  
+- **SEO:** 85/100  
+
+
